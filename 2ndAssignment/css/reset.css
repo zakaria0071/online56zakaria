@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(../img/bg1.jpg) no-repeat center center fixed; 
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+
+}
+.resetbox{
+    width: 320px;
+    height: 420px;
+    background: #4e4a4ae0;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    border-radius: 10px;
+
+}
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+    top: -30px;
+    left: calc(50% - 50px);
+}
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+    color: #C98A80;
+}
+.resetbox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+input{
+	width: 400px;
+    text-align: center;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    font-family: 'Play', sans-serif;
+    font-size: 16px;
+    font-weight: 200px;
+    padding: 10px 0;
+    transition: border 0.5s;
+    outline: none;
+    color: #fff;
+}
+input[type=button]
+{
+    border: none;
+    width: 110px;
+    background: #e6f3fb;
+    color: #000;
+    font-size: 16px;
+    line-height: 25px;
+    padding: 4px 0;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-left: 76px;
+    margin-bottom: 10px;
+}
+input[type=button]:hover
+{
+    color: #fff;
+    background-color: #C98A80;
+}
